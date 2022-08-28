@@ -21,7 +21,7 @@ namespace AutoFacOpenTelemetry
         {
             services.AddOpenTelemetryMetrics(builder =>
             {
-                builder.AddMeter("sdsd");
+                builder.AddMeter("just.to.test");
                 builder.AddPrometheusExporter();
             });
             services.AddOptions();
